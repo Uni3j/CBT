@@ -1,0 +1,98 @@
+body {
+    background: url('./img/joanna-kosinska-1_CMoFsPfso-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quiz-container {
+    background: #f4f4f4;
+    border-radius: 5px;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+#question-container {
+    margin-bottom: 2rem;
+}
+
+.answer-buttons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.answer-buttons li {
+    margin-bottom: 1rem;
+}
+
+.answer-buttons button {
+    width: 100%;
+    padding: 1rem;
+    background: #1d1a38;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.answer-buttons button.correct {
+    background-color: green;
+}
+
+.answer-buttons button.incorrect {
+    background-color: red;
+}
+
+.answer-buttons button:hover {
+    background: #45a0a0;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navigation button {
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#prev-btn {
+    background-color: #d3d3d3;
+}
+
+#next-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#submit-btn {
+    background-color: #f44336;
+    color: white;
+}
